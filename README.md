@@ -1,21 +1,28 @@
-## Setup
-
-## Running Your Project Locally
-
-
-## Creating Triggers
-
-## Datastores
-
-## Testing
-
-
-## Deploying Your App
-
-## Viewing Activity Logs
-
-## Project Structure
-
-## Resources
-
 # chrome-extension-slack-share
+
+このリポジトリは，Chrome拡張を通じてSlackにウェブページのURLを簡単に共有できるようにしたサンプルプロジェクトです．
+
+## 特徴
+- 現在閲覧しているページのURLをワンクリックでSlackに共有可能  
+- 拡張機能のアイコンをクリックして送信先チャンネルやメッセージを入力し，すぐに共有できる  
+
+## インストール方法
+1. このリポジトリをクローンまたはZIPファイルをダウンロードし，任意のフォルダに展開する  
+2. Google Chromeで「拡張機能」を開く（`chrome://extensions/` にアクセス）  
+3. 画面右上の「デベロッパーモード」を有効にする  
+4. 「パッケージ化されていない拡張機能を読み込む」をクリックし，先ほど展開したフォルダを選択する  
+5. `chrome-extension-slack-share`が拡張機能として追加される  
+
+## 使い方
+1. 拡張機能のアイコンをクリックする  
+2. SlackのAPIトークンや送信先チャンネルなどの情報を入力する  
+3. 「Share」ボタンをクリックすると，現在のタブで閲覧しているページURLをSlackに送信  
+
+## 開発・カスタマイズ
+- 拡張機能のコードを修正したい場合は，ローカル環境で編集後，再度「拡張機能の読み込み」操作を行うと反映される  
+- Slackへの投稿時に必要な認証情報（APIトークンなど）は，セキュリティに配慮して管理してください．環境変数や設定ファイルへの記載など，プロジェクトの形態に合わせて利用してください  
+
+## 作者
+[Kohei Inoda](https://github.com/Kohei-Inoda)  
+
+この拡張機能に関するお問い合わせやバグ報告は，IssueやPull Requestを通じてお気軽にお知らせください．
